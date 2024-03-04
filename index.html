@@ -22,6 +22,54 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
+      body {
+        background-color: hsl(212, 45%, 89%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+      }
+      .container {
+        border: 1px solid black;
+        margin-top: 250px;
+        text-align: center;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: hsl(0, 0%, 100%);
+      }
+      img {
+        border-radius: 10px;
+        margin: 20px;
+        width: 90%;
+      }
+      .paragraph {
+        color: hsl(220, 15%, 55%);
+        font-size: 15px;
+        padding: 0px 10px 0px 10px;
+        font-family: "Outfit", sans-serif;
+      }
+      .heading {
+        margin: 0;
+        padding: 0px 20px 0px 20px;
+        color: hsl(218, 44%, 22%);
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 700;
+        font-style: normal;
+      }
       @media screen and (min-width: 1440px) {
         body {
           background-color: hsl(212, 45%, 89%);
@@ -72,50 +120,52 @@
           font-style: normal;
         }
       }
-      body {
-        margin: 90px 70px 0;
-        background-color: hsl(212, 45%, 89%);
-      }
-      .container {
-        border: solid black 1px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 350px;
-        border-radius: 10px;
-        background: hsl(0, 0%, 100%);
-        text-align: center;
-      }
-      img {
-        margin: 20px 0 0 0;
-        width: 90%;
-        border-radius: 10px;
-      }
-      .paragraph {
-        font-size: 15px;
-        font-family: "Outfit", sans-serif;
-        padding: 0px 50px 0px 50px;
-        color: hsl(220, 15%, 55%);
-      }
-      .heading {
-        margin: 30px 0 0 0;
-        padding: 0px 50px 0px 50px;
-        color: hsl(218, 44%, 22%);
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400, 700;
-        font-style: normal;
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        font-family: "Outfit", sans-serif;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-        text-decoration: none;
+      @media screen and (max-width: 347px) {
+        body {
+          margin: 90px 70px 0;
+          background-color: hsl(212, 45%, 89%);
+        }
+        .container {
+          border: solid black 1px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          max-width: 350px;
+          border-radius: 10px;
+          background: hsl(0, 0%, 100%);
+          text-align: center;
+        }
+        img {
+          margin: 20px 0 0 0;
+          width: 90%;
+          border-radius: 10px;
+        }
+        .paragraph {
+          font-size: 15px;
+          font-family: "Outfit", sans-serif;
+          padding: 0px 50px 0px 50px;
+          color: hsl(220, 15%, 55%);
+        }
+        .heading {
+          margin: 30px 0 0 0;
+          padding: 0px 50px 0px 50px;
+          color: hsl(218, 44%, 22%);
+          font-family: "Outfit", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400, 700;
+          font-style: normal;
+        }
+        .attribution {
+          font-size: 11px;
+          text-align: center;
+          font-family: "Outfit", sans-serif;
+        }
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+          text-decoration: none;
+        }
       }
     </style>
   </head>
